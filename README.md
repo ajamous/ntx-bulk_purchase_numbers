@@ -6,10 +6,10 @@ This Python script automates the process of searching and purchasing phone numbe
 
 Before you begin, ensure you have met the following requirements:
 
--You have installed Python 3.6 or later.
--You have installed the requests Python library.
--You have a Neutrafix account with API access.
--Using Number Purchasing Automation Script
+- You have installed Python 3.6 or later.
+- You have installed the requests Python library.
+- You have a Neutrafix account with API access.
+- Using Number Purchasing Automation Script
 
 ### To use the Telin Number Automation Script, follow these steps:
 
