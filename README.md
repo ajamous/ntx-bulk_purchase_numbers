@@ -17,7 +17,7 @@ Before you begin, ensure you have met the following requirements:
 - Open the script telin_script.py in a text editor.
 - Replace the placeholder username and password in the script with your actual Neutrafix API username and password.
 - (Optional) Adjust the search_data parameters to suit your specific requirements.
-- Run the script in your terminal with the command python3 `bulk_nums_purchase.py`.
+- Run the script in your terminal with the command `python3 bulk_nums_purchase.py`.
 - Monitor the console and the `bulk_numbers_purchase.log` file for log details.
 
 ### Contributing to NeuTrafix Number Automation Script
