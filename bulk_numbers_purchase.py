@@ -81,7 +81,7 @@ for number in available_numbers:
         'billing_i_account': '0', # replace with your own billing account id value. 
         'contact': f'sip:{phone_number}@sip.yourdomain.com',  #  Replace with the actual sip contact - DO NOT enter PORT if SIP SRV is enabled
         'sip_srv':1, # Enable SIP DNS SRV - to Disable SIP SRV use the value 0
-        'smpp_contact': f'smpp:did:did:{phone_number}@smpp.telecomsxchange.com:2776'  # replace with the actual smpp contact
+        'smpp_contact': f'smpp:did:did:{phone_number}@smpp.yoursmppserver.com:2776'  # replace with the actual smpp contact
     }
 
     logger.info(f"Purchase data for number {phone_number}: {json.dumps(purchase_data)}")  # log the purchase data
