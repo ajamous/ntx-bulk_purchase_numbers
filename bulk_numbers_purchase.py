@@ -79,7 +79,8 @@ for number in available_numbers:
     purchase_data = {
         'i_did': i_did,
         'billing_i_account': '0', # replace with your own billing account id value. 
-        'contact': f'sip:{phone_number}@sip.telecomsxchange.com:5060',  # replace with the actual sip contact
+        'contact': f'sip:{phone_number}@sip.telecomsxchange.com:5060',  #  Replace with the actual sip contact - DO NOT enter PORT if SIP SRV is enabled
+        'sip_srv':1, # Enable SIP DNS SRV - to Disable SIP SRV use the value 0
         'smpp_contact': f'smpp:did:did:{phone_number}@smpp.telecomsxchange.com:2776'  # replace with the actual smpp contact
     }
 
